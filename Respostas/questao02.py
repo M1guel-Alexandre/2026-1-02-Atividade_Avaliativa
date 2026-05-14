@@ -2,7 +2,7 @@
 
 import random
 
-n = int(input("Digite um número: "))
-for num in range (1, n + 1):
+numero = int(input("Digite um número: "))
+for num in range (1, numero + 1):
     num = random.randint(1, 100)
     print (num)
